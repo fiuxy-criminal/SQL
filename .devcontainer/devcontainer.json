@@ -1,0 +1,15 @@
+{
+  "name": "SQL Server Workspace",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/mssql:1": { 
+      "version": "2019" 
+    }
+  },
+  "forwardPorts": [1433],
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-mssql.mssql"]
+    }
+  }
+}
